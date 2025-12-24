@@ -64,9 +64,9 @@ def estimate_distance(u1, v1, u2, v2, baseline, camera_height):
     D = baseline / delta_P
     return D
 
-# Inputs
-u1, v1 = 370, 362
-u2, v2 = 376, 405
+# 370 362 --> 376 405
+u1, v1 = int(input().split())
+u2, v2 = int(input().split())
 baseline = 0.5
 camera_height = 1
 
