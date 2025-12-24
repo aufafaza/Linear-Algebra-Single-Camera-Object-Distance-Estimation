@@ -65,10 +65,10 @@ def estimate_distance(u1, v1, u2, v2, baseline, camera_height):
     return D
 
 # Inputs
-u1, v1 = 350, 328
-u2, v2 = 356, 310
-baseline = 0.2
-camera_height = 1.0   
+u1, v1 = 316, 325
+u2, v2 = 184, 325
+baseline = 1
+camera_height = 0.7
 
 D = estimate_distance(u1, v1, u2, v2, baseline, camera_height)
 
